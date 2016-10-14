@@ -1,0 +1,9 @@
+EXPORTS
+	LoadEterIndex @1
+	GetFilesList  @2
+	GetFileCount  @3
+	FreeEterIndex @4
+	LoadEterPack  @5
+	GetFileData   @6
+	GetDataSize   @7
+	FreeEterPack  @8

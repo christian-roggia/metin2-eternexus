@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Test</class>
+ <widget class="QMainWindow" name="Test">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>930</width>
+    <height>430</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Test</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>911</width>
+      <height>381</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>Index</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Virtual Path</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>UNK</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Name CRC32</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Packed Size</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>File Size</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>File CRC32</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>File Offset</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Storage Type</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>10</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

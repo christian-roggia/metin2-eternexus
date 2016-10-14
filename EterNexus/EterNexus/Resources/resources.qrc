@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/images">
+        <file alias="extract.png">images/tb_extract.png</file>
+        <file alias="about.png">images/about.png</file>
+        <file alias="settings.png">images/Settings16.png</file>
+        <file>images/favicon.png</file>
+        <file>images/compile.png</file>
+    </qresource>
+</RCC>
